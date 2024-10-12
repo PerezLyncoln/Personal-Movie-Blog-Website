@@ -1,3 +1,4 @@
+/* Main Container for the whole body*/
 .recent-posts {
     display: flex;
     justify-content: center;
@@ -5,6 +6,8 @@
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
+/* Title for Recent Blogs */
 .recent-container h1 {
     width: 1200px;
 
@@ -15,9 +18,10 @@
     
     padding: 20px;
 }
+
+/* Structure for Featured */
 .grid-box {
     display: block;
-    grid-template-columns: 1fr 1fr;
     gap: 20px;
     width: 100%;
     max-width: 1200px;
@@ -37,6 +41,10 @@
     background-color: #f9f9f9;
 }
 
+/* Content in Featured Blogs */
+
+/* Blog Info Main Container */
+/* Blog Info Container */
 .boxes-info {
     display: flex;
     flex-direction: column;
@@ -44,16 +52,38 @@
     padding: 15px; /* Added padding for text to prevent it from touching the edge */
 }
 
+/* Featured Blog Title */
 .boxes-info h2 {
     margin: 0 0 10px;
-    font-size: 1.5em;
+
+    font-size: 45px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
+/* Featured Blog Paragraph */
 .boxes-info p {
-    margin: 0;
+    margin: 5px 0px;
+
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.boxes-info:hover {
+    color: rgb(255, 51, 0);
+    text-shadow: 0px 0px 15px grey;
+}
+
+/* Star Rating */
+.checked {
+    color: orange;
+}
+.unchecked {
     color: #555;
 }
 
+/* Featured Post Images */
 .boxes-image {
     display: flex;
     justify-content: center;
@@ -63,7 +93,7 @@
 
 .image img {
     width: 100%;
-    height: 100%;
+    height: 400px;
     object-fit: cover;
     border-radius: 0; /* Remove rounded corners */
 }

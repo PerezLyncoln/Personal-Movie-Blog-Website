@@ -8,6 +8,7 @@
     padding-bottom: 30px;
 }
 .side-content {
+    border-radius: 5px;
     padding: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -16,7 +17,6 @@
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
-
 }
 /* Bullet List */
 .side-content ul {
@@ -25,6 +25,15 @@
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal
+}
+.side-content ul a{
+    text-decoration: none;
+    color: black;
+}
+.side-content ul a:hover{
+    text-decoration: none;
+    color: rgb(255, 51, 0);
+    text-shadow: 0px 0px 15px grey;
 }
 
 /* Sidebox Containers*/
@@ -40,6 +49,19 @@
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal
+}
+.sidebox-info a{
+    text-decoration: none;
+    color: black;
+
+    font-size: 30px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.sidebox-info a:hover {
+    color: rgb(255, 51, 0);
+    text-shadow: 0px 0px 15px grey;
 }
 .sidebox-image img{
     height: 100%;

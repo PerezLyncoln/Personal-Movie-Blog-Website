@@ -1,5 +1,4 @@
 .blog-container {
-    text-align: justify;
     margin: 10px 25%;
 }
 .blog-container p {
@@ -8,8 +7,51 @@
     font-weight: 400;
     font-style: normal
 }
-.blog-container img {
+/* Image Positions */
+.blog-container img.minecraft {
+    height: 400px;
+    width: 700px;
     float: right;
     padding-left: 10px;
     padding-bottom: 10px;
+}
+
+.blog-container img.minecraft2 {
+    height: 400px;
+    width: 700px;
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.blog-container img.sonic {
+    height: 350px;
+    width: 600px;
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.blog-container img.sonic2 {
+    height: 300px;
+    width: 500px;
+    float: right;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+/* Paragraph Content */
+/* Main Paragraph Title */
+.blog-content h1 {
+    font-size: 65px;
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/* Sub-heading Paragraph Title */
+.blog-content h2 {
+    font-size: 35px;
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
 }

@@ -32,6 +32,7 @@
     padding: 6px 20px;
 
     text-decoration: none;
+    color: white;
 
     font-size: 30px;
     font-family: "Bebas Neue", serif;
@@ -39,7 +40,8 @@
     font-style: normal;
 }
 .navigation-bar a:hover {
-    padding: 6px 20px;
+    color: rgb(255, 51, 0);
+    text-shadow: 0px 0px 15px grey;
 }
     /* Search Bar */
 .navigation-bar input[type=text] {
@@ -102,9 +104,11 @@ section {
 
 /* Contaiers (Website Title) */
 
-/* .main-top {
-    margin: 15px 0px; 
-}
+ .main-top {
+    margin: 30px 0px; 
+} 
+
+/*
 .main-top h3, h4 {
     margin: 7px 0px;
 
@@ -112,9 +116,10 @@ section {
 
 /* Blog Title */
 .main-side h1 {
-    height: 200px;
+    width: 1000px;
+    line-height: 100px;
 
-    font-size: 200px;
+    font-size: 120px;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
