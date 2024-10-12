@@ -1,0 +1,69 @@
+.recent-posts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.recent-container h1 {
+    width: 1200px;
+
+    font-size: 60px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    padding: 20px;
+}
+.grid-box {
+    display: block;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.boxes {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 15px;
+    align-items: center;
+    padding: 0; /* Remove padding to allow image to touch edges */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.boxes-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px; /* Added padding for text to prevent it from touching the edge */
+}
+
+.boxes-info h2 {
+    margin: 0 0 10px;
+    font-size: 1.5em;
+}
+
+.boxes-info p {
+    margin: 0;
+    color: #555;
+}
+
+.boxes-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Ensures image fits the box without overflow */
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0; /* Remove rounded corners */
+}

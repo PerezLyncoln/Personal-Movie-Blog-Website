@@ -1,0 +1,49 @@
+.sidebox-main {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    max-width: 300px;
+    margin-right: 30px;
+    margin-top: auto;
+    padding-bottom: 30px;
+}
+.side-content {
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.side-content h2 {
+    font-size: 35px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+/* Bullet List */
+.side-content ul {
+    list-style: none;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal
+}
+
+/* Sidebox Containers*/
+.sidebox {
+    display: flex;
+}
+.sidebox-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal
+}
+.sidebox-image img{
+    height: 100%;
+    width: 100%;
+    max-height: 50px;
+    max-width: 50px;
+}
