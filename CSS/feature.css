@@ -85,7 +85,7 @@ section {
 }
 /* Main Content */
 /* Blog Site Name */
-.main-top h3 {
+.main-top h1.top {
     height: 50px;
     font-size: 50px;
     font-family: "Bebas Neue", sans-serif;
@@ -93,7 +93,7 @@ section {
     font-style: normal;
   
 }
-.main-top h4 {
+.main-top h1.bottom {
     font-size: 25px;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
