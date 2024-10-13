@@ -13,6 +13,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .side-content h2 {
+    color: #03a1fc;
     font-size: 35px;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
@@ -45,6 +46,7 @@
 /* Sidebox Containers*/
 .sidebox {
     display: flex;
+    margin: 10px 0px;
 }
 .sidebox-info {
     display: flex;

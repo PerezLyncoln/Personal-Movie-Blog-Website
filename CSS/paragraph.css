@@ -43,6 +43,7 @@
 /* Paragraph Content */
 /* Main Paragraph Title */
 .blog-content h1 {
+    color: #03a1fc;
     font-size: 65px;
     font-family: "Bebas Neue", serif;
     font-weight: 400;
@@ -50,6 +51,7 @@
 }
 /* Sub-heading Paragraph Title */
 .blog-content h2 {
+    color: #008cdd;
     font-size: 35px;
     font-family: "Bebas Neue", serif;
     font-weight: 400;
