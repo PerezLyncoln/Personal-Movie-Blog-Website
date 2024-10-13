@@ -38,6 +38,9 @@
 .side-content ul li {
     margin: 15px 0px;
 }
+.side-content ul li.contact-me {
+    margin: 20px 0px;
+}
 
 /* Sidebox Containers*/
 .sidebox {
