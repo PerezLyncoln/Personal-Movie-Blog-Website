@@ -149,3 +149,24 @@ section {
     margin: 0px 20%;
     margin-top: 80px;
 }
+
+@media (max-width: 1400px) {
+    div.blog-container {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    div.content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+    div.main-top h1, .main-top h2 {
+        text-align: center;
+    }
+    div.main-side h3, div.main-side h4 {
+        text-align: center;
+    }
+}

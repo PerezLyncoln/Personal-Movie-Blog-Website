@@ -100,3 +100,21 @@
     object-fit: cover;
     border-radius: 0; /* Remove rounded corners */
 }
+
+@media (max-width: 1400px) {
+    div.recent-posts {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    div.recent-container {
+        width: 100%;
+    }
+    div.recent-container h1{
+        text-align: center;
+        width: 100%;
+    }
+    div.grid-box {
+        width: 100%;
+    }
+}

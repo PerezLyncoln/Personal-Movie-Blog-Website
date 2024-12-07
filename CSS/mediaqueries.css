@@ -1,0 +1,33 @@
+@media (max-width: 1400px) {
+    div.main-feature {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+    div.content
+    div.main-top {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        height: 0;
+    }
+    div.main-side {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        height: 0;
+    }
+    /* ------------------------- */
+    div.recent-posts {
+        display: flex;
+        flex-direction: column;
+    }
+}

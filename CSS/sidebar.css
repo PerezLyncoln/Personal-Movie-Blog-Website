@@ -77,3 +77,27 @@
     max-height: 50px;
     max-width: 50px;
 }
+@media (max-width:1400px) {
+    div.sidebox-main {
+        position: none;
+        margin: 20px;
+        padding: 0;
+        max-width: 100%;
+    }
+    div.side-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 30px;
+    }
+    .side-content ul {
+        width: 80%;
+    }
+    .side-content ul li a {
+        display: flex;
+        flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        font-size: 25px;
+    }
+}
